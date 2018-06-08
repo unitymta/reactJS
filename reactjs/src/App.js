@@ -13,9 +13,20 @@ class App extends Component {
       <div className="reactjs">
         <TopMenu/>
         <Header/>
-        <Content title="Test props 1" order1="order-lg-2" links="01.jpg"/>
-        <Content title="Test props 2" links="02.jpg"/>
-        <Content title="Test props 3" order1="order-lg-2" links="03.jpg"/>
+
+        <div className="row align-items-center">
+          <Content title="Test props 1" order1="order-lg-2" links="01.jpg"/>
+          <Content title="Test props 2" links="02.jpg"/>
+          <Content title="Test props 3" order1="order-lg-2" links="03.jpg"/>
+
+          <Content title="Test props 1" order1="order-lg-2" links="01.jpg"/>
+          <Content title="Test props 2" links="02.jpg"/>
+          <Content title="Test props 3" order1="order-lg-2" links="03.jpg"/>
+
+          <Content title="Test props 1" order1="order-lg-2" links="01.jpg"/>
+          <Content title="Test props 2" links="02.jpg"/>
+          <Content title="Test props 3" order1="order-lg-2" links="03.jpg"/>
+        </div>
         <Footer/>
       </div>
     );

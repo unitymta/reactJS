@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom';
 import News from '../components/News';
 import Home from '../components/Home';
 import NewsDetail from '../components/NewsDetail';
@@ -10,8 +10,8 @@ class Nav extends Component {
         return (
             <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
                 <div className="container">
-                    <a className="navbar-brand js-scroll-trigger" href="/">
-                        <Link to="/">React Router</Link>
+                    <a className="navbar-brand js-scroll-trigger" href="/home">
+                        <Link to="/home">React Router</Link>
                     </a>
                     <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                         Menu
@@ -20,13 +20,13 @@ class Nav extends Component {
                     <div className="collapse navbar-collapse" id="navbarResponsive">
                         <ul className="navbar-nav ml-auto">
                             <li>
-                                <Link to="/tin">Tin tuc</Link>
+                                <NavLink to="/tin">Tin tuc</NavLink>
                             </li>
                             <li>
-                                <Link to="/tin-chi-tiet">Tin chi tiet</Link>
+                                <NavLink to="/tin-chi-tiet">Tin chi tiet</NavLink>
                             </li>
                             <li>
-                                <Link to="/lien-he">Contact</Link>
+                                <NavLink to="/lien-he">Contact</NavLink>
                             </li>
                         </ul>
                     </div>

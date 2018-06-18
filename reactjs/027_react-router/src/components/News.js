@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+import NewsItem from './NewsItem';
+import dl from './dulieu.json';
 
 class News extends Component {
+   
     render() {
         return (
             <div>
@@ -18,160 +21,9 @@ class News extends Component {
                 {/* begin tintuc */}
                 <div className="container">
                     <div className="row">
-                    <div className="col-4">
-                        <div className="card-deck">
-                        <div className="card">
-                            <img className="card-img-top" src="http:placehold.it/800x400" alt="demo" />
-                            <div className="card-body">
-                            <h4 className="card-title">Title</h4>
-                            <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, consequatur laudantium beatae praesentium ipsa eligendi suscipit eum minus, esse, porro explicabo. Magnam perspiciatis quo maxime quae, rerum aliquam alias amet?</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="col-4">
-                        <div className="card-deck">
-                        <div className="card">
-                            <img className="card-img-top" src="http:placehold.it/800x400" alt="demo" />
-                            <div className="card-body">
-                            <h4 className="card-title">Title</h4>
-                            <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, consequatur laudantium beatae praesentium ipsa eligendi suscipit eum minus, esse, porro explicabo. Magnam perspiciatis quo maxime quae, rerum aliquam alias amet?</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="col-4">
-                        <div className="card-deck">
-                        <div className="card">
-                            <a href="chitiet.html"><img className="card-img-top" src="http:placehold.it/800x400" alt="demo" /></a>
-                            <div className="card-body">
-                            <h4 className="card-title">Title</h4>
-                            <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, consequatur laudantium beatae praesentium ipsa eligendi suscipit eum minus, esse, porro explicabo. Magnam perspiciatis quo maxime quae, rerum aliquam alias amet?</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="col-4">
-                        <div className="card-deck">
-                        <div className="card">
-                            <img className="card-img-top" src="http:placehold.it/800x400" alt="demo" />
-                            <div className="card-body">
-                            <h4 className="card-title">Title</h4>
-                            <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, consequatur laudantium beatae praesentium ipsa eligendi suscipit eum minus, esse, porro explicabo. Magnam perspiciatis quo maxime quae, rerum aliquam alias amet?</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="col-4">
-                        <div className="card-deck">
-                        <div className="card">
-                            <img className="card-img-top" src="http:placehold.it/800x400" alt="demo" />
-                            <div className="card-body">
-                            <h4 className="card-title">Title</h4>
-                            <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, consequatur laudantium beatae praesentium ipsa eligendi suscipit eum minus, esse, porro explicabo. Magnam perspiciatis quo maxime quae, rerum aliquam alias amet?</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="col-4">
-                        <div className="card-deck">
-                        <div className="card">
-                            <img className="card-img-top" src="http:placehold.it/800x400" alt="demo" />
-                            <div className="card-body">
-                            <h4 className="card-title">Title</h4>
-                            <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, consequatur laudantium beatae praesentium ipsa eligendi suscipit eum minus, esse, porro explicabo. Magnam perspiciatis quo maxime quae, rerum aliquam alias amet?</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="col-4">
-                        <div className="card-deck">
-                        <div className="card">
-                            <img className="card-img-top" src="http:placehold.it/800x400" alt="demo" />
-                            <div className="card-body">
-                            <h4 className="card-title">Title</h4>
-                            <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, consequatur laudantium beatae praesentium ipsa eligendi suscipit eum minus, esse, porro explicabo. Magnam perspiciatis quo maxime quae, rerum aliquam alias amet?</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="col-4">
-                        <div className="card-deck">
-                        <div className="card">
-                            <img className="card-img-top" src="http:placehold.it/800x400" alt="demo" />
-                            <div className="card-body">
-                            <h4 className="card-title">Title</h4>
-                            <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, consequatur laudantium beatae praesentium ipsa eligendi suscipit eum minus, esse, porro explicabo. Magnam perspiciatis quo maxime quae, rerum aliquam alias amet?</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="col-4">
-                        <div className="card-deck">
-                        <div className="card">
-                            <img className="card-img-top" src="http:placehold.it/800x400" alt="demo" />
-                            <div className="card-body">
-                            <h4 className="card-title">Title</h4>
-                            <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, consequatur laudantium beatae praesentium ipsa eligendi suscipit eum minus, esse, porro explicabo. Magnam perspiciatis quo maxime quae, rerum aliquam alias amet?</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="col-4">
-                        <div className="card-deck">
-                        <div className="card">
-                            <img className="card-img-top" src="http:placehold.it/800x400" alt="demo" />
-                            <div className="card-body">
-                            <h4 className="card-title">Title</h4>
-                            <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, consequatur laudantium beatae praesentium ipsa eligendi suscipit eum minus, esse, porro explicabo. Magnam perspiciatis quo maxime quae, rerum aliquam alias amet?</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="col-4">
-                        <div className="card-deck">
-                        <div className="card">
-                            <img className="card-img-top" src="http:placehold.it/800x400" alt="demo" />
-                            <div className="card-body">
-                            <h4 className="card-title">Title</h4>
-                            <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, consequatur laudantium beatae praesentium ipsa eligendi suscipit eum minus, esse, porro explicabo. Magnam perspiciatis quo maxime quae, rerum aliquam alias amet?</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="col-4">
-                        <div className="card-deck">
-                        <div className="card">
-                            <img className="card-img-top" src="http:placehold.it/800x400" alt="demo" />
-                            <div className="card-body">
-                            <h4 className="card-title">Title</h4>
-                            <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, consequatur laudantium beatae praesentium ipsa eligendi suscipit eum minus, esse, porro explicabo. Magnam perspiciatis quo maxime quae, rerum aliquam alias amet?</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="col-4">
-                        <div className="card-deck">
-                        <div className="card">
-                            <img className="card-img-top" src="http:placehold.it/800x400" alt="demo" />
-                            <div className="card-body">
-                            <h4 className="card-title">Title</h4>
-                            <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, consequatur laudantium beatae praesentium ipsa eligendi suscipit eum minus, esse, porro explicabo. Magnam perspiciatis quo maxime quae, rerum aliquam alias amet?</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="col-4">
-                        <div className="card-deck">
-                        <div className="card">
-                            <img className="card-img-top" src="http:placehold.it/800x400" alt="demo" />
-                            <div className="card-body">
-                            <h4 className="card-title">Title</h4>
-                            <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, consequatur laudantium beatae praesentium ipsa eligendi suscipit eum minus, esse, porro explicabo. Magnam perspiciatis quo maxime quae, rerum aliquam alias amet?</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
+                        {dl.map((value, key) => (
+                            <NewsItem key={key} img={value.anh} noidung={value.trichDan} title={value.tieuDe}/>
+                        ))}                        
                     </div>
                 </div>
             </div>
